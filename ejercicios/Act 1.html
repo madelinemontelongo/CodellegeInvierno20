@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+</head>
+<body>
+
+    <!--tabla-->
+        
+        <table>
+
+            <!--Formulario-->
+
+            <form>
+            <tr>    
+                <td colspan="2" style="text-align: center;"><h1>Registration Form</h1></td>
+            </tr>
+
+            <tr>
+                <td><label for="User id">User id: </label></td>
+                <td><input type="text" id="User id" name="user id" required minlength="7" maxlength="12"> </td> 
+            </tr>
+
+            <tr>
+                <td><label for="Password">Password: </label></td>
+                <td><input type="password" id="Password" name="user id" required minlength="7" maxlength="12"></td>
+            </tr>
+
+            <tr>
+                <td><label for="Name">Name: </label></td>
+                <td><input type="text" id="Name" name="Name" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="Adress">Adress: </label></td>
+                <td><input type="text" id="Adress" name="Adress" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="Country">Country: </label></td>
+                <td><select name="Country" id="Country" required>
+                    <option value="1">México</option>
+                    <option value="2">EUA</option>
+                    <option value="3">Argentina</option>
+                    <option value="4">Canadá</option>
+                    <option value="5">Japón</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td><label for="Code">IP Code: </label></td>
+                <td><input type="text" id="Code" name="Code" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="Mail">E-Mail: </label></td>
+                <td><input type="text" id="Mail" name="Mail" required></td>
+            </tr>
+
+            <tr>
+                <td><label for="Sex">Sex </label></td>
+                <td><input type="radio" id="Sex" name="Male" required>Male
+                <input type="radio" id="Sex" name="Male" required>Female</td>
+            </tr>
+
+            <tr>
+                <td><label for="Language">Language </label></td>
+                <td><input type="checkbox" id="Language" name="English">English
+                <input type="checkbox" id="Language" name="NonEnglish">Non English</td>
+            </tr>
+
+            <tr>
+                <td><label for="About">About: </label></td>
+                <td><textarea id="About" rows="8" cols="30" required> </textarea></td>
+            </tr>
+
+            <!--Enviar información-->
+            <tr>
+                <td colspan="2" style="text-align: center;"><input type="submit"></td>
+            </tr>
+
+        </form>
+    </table>
+</body>
+</html>
